@@ -1,0 +1,34 @@
+# Ghostty — terminal dédié Cursor CLI
+# Recharger : Cmd+Shift+,  |  Éditer : Cmd+,
+
+# --- Thème ---
+# Thèmes disponibles (décommente une seule ligne) :
+# theme = Winter is Coming Dark Blue
+# theme = TokyoNight
+# theme = TokyoNight Day
+# theme = TokyoNight Moon
+# theme = TokyoNight Night
+# theme = TokyoNight Storm
+theme = Winter is Coming Dark Blue
+
+# --- Police & ligatures ---
+font-family = Dank Mono
+font-size = 14
+
+# --- Confort lecture (long output agent) ---
+window-padding-x = 8
+window-padding-y = 8
+window-padding-balance = true
+mouse-hide-while-typing = true
+scroll-to-bottom = keystroke, output
+
+# --- macOS / persistance sessions ---
+window-save-state = always
+window-step-resize = true
+copy-on-select = true
+confirm-close-surface = true
+app-notifications = no-clipboard-copy
+clipboard-paste-protection = true
+
+# --- Shell (cwd, titre, curseur dans les prompts) ---
+shell-integration = detect
